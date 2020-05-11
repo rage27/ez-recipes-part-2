@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adobo_Procedure"
+    android:background="@drawable/logofinal3copy">
+
+    <TextView
+        android:id="@+id/adobo_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="ADOBO"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/adobo_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/adobo"
+        android:layout_below="@id/adobo_1"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/ingred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Procedure:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_below="@id/adobo_image"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Heat the pot and pour oil."
+        android:layout_below="@id/ingred"/>
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Add onion, garlic for each 20-30 seconds"
+        android:layout_below="@id/text_1"
+        />
+    <TextView
+        android:id="@+id/text_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Put chicken and turn the stove into low fire and wait for 1-2 minutes."
+        android:layout_below="@id/text_2"
+        />
+    <TextView
+        android:id="@+id/text_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. After 1-2 minutes, add the ginger and laurel"
+
+       android:layout_below="@id/text_3" />
+    <TextView
+        android:id="@+id/text_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Pour slowly the vinegar and stir properly and wait for 30 seconds"
+        android:layout_below="@id/text_4"
+        />
+    <TextView
+        android:id="@+id/text_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6. After 30 seconds, pour slowly soy sauce then add salt and pepper and let it cook for 3-5 minutes."
+        android:layout_below="@id/text_5"/>
+    <TextView
+        android:id="@+id/text_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7. After 3-5 minutes, add sugar and sprite(optional) together with potatoes and let it cook for 15 minutes"
+        android:layout_below="@id/text_6"
+        />
+    <TextView
+        android:id="@+id/text_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_7"
+        android:text="8. After 15 minutes cooking time, taste your adobo, if it not meets your taste, you can add more condiments"
+        />
+    <TextView
+        android:id="@+id/text_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_8"
+        android:text="9. After it meets your taste you can add your boiled egg and serve with bowl or plate together with rice."
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_9"
+        android:text="10. Serve with your family, friends, or loved ones and enjoy!"
+        />
+
+    <Button
+        android:id="@+id/countdown_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/adobo_image"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp"
+        android:text="START"
+        />
+    <TextView
+        android:id="@+id/countdown_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/adobo_image"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        tools:text="15:00"/>
+</RelativeLayout>

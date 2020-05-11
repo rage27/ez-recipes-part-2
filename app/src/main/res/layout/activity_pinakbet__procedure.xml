@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pinakbet_Procedure"
+    android:background="@drawable/logofinal3copy">
+
+    <TextView
+        android:id="@+id/adobo_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="PINAKBET"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/adobo_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/pakbet"
+        android:layout_below="@id/adobo_1"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/ingred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Procedure:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_below="@id/adobo_image"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Heat cooking oil in a pot. Saute onion and garlic. Add ginger and continue to cook until the onion softens."
+        android:layout_below="@id/ingred"/>
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Add lechon kawali,beef,chicken. Saute for 1 minute."
+        android:layout_below="@id/text_1"
+        />
+    <TextView
+        android:id="@+id/text_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Pour water. Let boil."
+        android:layout_below="@id/text_2"
+        />
+    <TextView
+        android:id="@+id/text_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Add Knorr Shrimp Cube. Cover the pot and cook in medium heat for 20 minutes."
+
+        android:layout_below="@id/text_3" />
+    <TextView
+        android:id="@+id/text_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Add tomato and bagoong alamang. Stir. Cover the pot. Cook for 3 minutes. "
+        android:layout_below="@id/text_4"
+        />
+    <TextView
+        android:id="@+id/text_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6.Put the kalabasa and kamote into the pot. Cook for 7 minutes."
+        android:layout_below="@id/text_5"/>
+    <TextView
+        android:id="@+id/text_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7.Add sitaw, okra, ampalaya, and eggplant. Stir. Cover the pot and cook for 5 minutes."
+        android:layout_below="@id/text_6"
+        />
+    <TextView
+        android:id="@+id/text_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_7"
+        android:text="8. Season with ground black pepper and add remaining lechon kawali. Cook for minutes."
+        />
+    <TextView
+        android:id="@+id/text_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_8"
+        android:text="9.Serve with your family, friends, or loved ones and enjoy!"
+        />
+
+    <Button
+        android:id="@+id/countdown_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/adobo_image"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp"
+        android:text="START"
+        />
+    <TextView
+        android:id="@+id/countdown_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/adobo_image"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        tools:text="30:00"/>
+
+</RelativeLayout>

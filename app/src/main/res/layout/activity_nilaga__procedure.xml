@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nilaga_Procedure"
+    android:background="@drawable/logofinal3copy">
+
+    <TextView
+        android:id="@+id/adobo_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="NILAGANG BAKA"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/adobo_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/nilagang_baka"
+        android:layout_below="@id/adobo_1"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/ingred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Procedure:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_below="@id/adobo_image"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Combine the water and beef broth in a large cooking pot. Bring to a boil."
+        android:layout_below="@id/ingred"/>
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Add the onion, star anise, and celery. Reduce the heat in medium. Cover the pot and continue to boil for 20 minutes."
+        android:layout_below="@id/text_1"
+        />
+    <TextView
+        android:id="@+id/text_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.Remove the onion, star anise, and celery from the boiling liquid using a skimmer or a strainer. You can discard these ingredients."
+        android:layout_below="@id/text_2"
+        />
+    <TextView
+        android:id="@+id/text_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Add the beef. Simmer for 60 to 90 minutes or until the beef becomes tender. You can add more water if necessary."
+
+        android:layout_below="@id/text_3" />
+    <TextView
+        android:id="@+id/text_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Put-in the saba banana and potatoes. Cook for 10 minutes"
+        android:layout_below="@id/text_4"
+        />
+    <TextView
+        android:id="@+id/text_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6. Add the bok choy and cabbage. Sprinkle salt and pepper. Stir."
+        android:layout_below="@id/text_5"/>
+    <TextView
+        android:id="@+id/text_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7.Cover and turn the heat off. Let the pot stay with cover-on for 2 to 5 minutes to cook the vegetables."
+        android:layout_below="@id/text_6"
+        />
+    <TextView
+        android:id="@+id/text_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_7"
+        android:text="8. Transfer to a serving bowl."
+        />
+    <TextView
+        android:id="@+id/text_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_8"
+        android:text="9.Serve with your family, friends, or loved ones and enjoy!"
+        />
+
+
+    <Button
+        android:id="@+id/countdown_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/adobo_image"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp"
+        android:text="START"
+        />
+    <TextView
+        android:id="@+id/countdown_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/adobo_image"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        tools:text="30:00"/>
+
+
+
+</RelativeLayout>

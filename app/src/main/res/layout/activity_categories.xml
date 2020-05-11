@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories"
+    android:background="@drawable/bgfinal">
+
+    <Button
+        android:id="@+id/adobo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:text="ADOBO"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+
+
+    <Button
+        android:id="@+id/caldereta"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_toRightOf="@id/adobo"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="120dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="CALDERETA"/>
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/nilagang_baka"
+        android:layout_below="@id/adobo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="NILAGANG BAKA"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+
+
+    <Button
+        android:id="@+id/pinakbet"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_toRightOf="@id/nilagang_baka"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="70dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="PINAKBET"/>
+    <Button
+        android:id="@+id/bicol_express"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/nilagang_baka"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="25dp"
+        android:text="BICOL EXPRESS"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+</RelativeLayout>
